@@ -45,10 +45,10 @@ npm run server
 
 ### If you have error 
 ### "Invalid options object. Dev Server has been initialized using an options object that does not match the API schema.
-### - options.allowedHosts[0] should be a non-empty string.
-### Go to frontend\node_modules\react-scripts\config\webpackDevServer.config.js and change line 46 from
-### allowedHosts: disableFirewall ? 'all' : [allowedHost],
-### to
+### - options.allowedHosts[0] should be a non-empty string."
+ Go to frontend\node_modules\react-scripts\config\webpackDevServer.config.js and change line 46 from
+## allowedHosts: disableFirewall ? 'all' : [allowedHost],
+ to
 
 ```bash
 allowedHosts: disableFirewall ? 'all' : "localhost",
