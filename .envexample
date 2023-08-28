@@ -1,4 +1,4 @@
 PORT = 8080
 DEV_MODE = development
-MONGO_URL = mongodb://b6303693:user123@ac-0xjiigw-shard-00-00.3rv4zky.mongodb.net:27017,ac-0xjiigw-shard-00-01.3rv4zky.mongodb.net:27017,ac-0xjiigw-shard-00-02.3rv4zky.mongodb.net:27017/?replicaSet=atlas-hyr2nq-shard-0&ssl=true&authSource=admin
-JWT_SECRET = LBVDTYUKJHGFTYUJ45362
+MONGO_URL = mongodb+srv://youruri
+JWT_SECRET = test123
