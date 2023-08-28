@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+/* font-family: 'IBM Plex Serif', serif; */
+
+/*---------------- sidebar ----------------*/
+.sidebar{
+  font-family: 'IBM Plex Serif', serif;
+  width: 250px;
+  height: 100%;
+  background: #242426;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #ced1d3;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.sidebar ul li a .fas{
+  width: 25px;
+}
+
+.sidebar ul li:hover{
+  background-color: #403c54;
+}
+    
+.sidebar ul li:hover a{
+  color: #fff;
+}
+
+/*---------------- navbar ----------------*/
+.navbar {
+  width: auto;
+  background-color: #353b3f;
+  margin-left: 250px;
+}
+
+.nav-brand {
+  width: 30%;
+  border: none;
+  display: flex;
+  justify-content: right;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  margin-left: 65%;
+  padding-left: 100px;
+}
+
+.nav-item {
+  font-family: 'IBM Plex Serif', serif;
+  color: #fff;
+  display: inline-flex;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/*---------------- register ----------------*/
+
+.register {
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 2;
+  background-color: #fff;
+}
+
+.register form {
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+input,
+input::placeholder {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 14px;
+}
+
+.submit {
+  font-size: 13px;
+  font-family: 'IBM Plex Serif', serif;
+  background-color: #e2e4e4;
+  border-color: #d3d6d6;
+  margin-top: 2%;
+  width: 120px;
+  height: 40px;
+}
+
+.login {
+  margin-top: 4%;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 2;
+  background-color: #fff;
+}
+
+.login form {
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/*---------------- ticket ----------------*/
+
+.ticket {
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 2;
+  background-color: #fff;
+}
+
+.create {
+  margin-top: 10%;
+}
+
+.create label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.crebtn {
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #d0d8e8;
+}
+
+/*---------------- ticket list ----------------*/
+.dashboard {
+  margin-left: 400px;
+  width: 100%;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.row{
+  width: 100%;
+  height: auto;
+}
+
+.data{
+  margin-left: 5px;
+}
+
+.pur {
+  background-color: rgb(196, 189, 213);
+}
+
+/*---------------- homepage ----------------*/
+.home {
+  font-family: 'IBM Plex Serif', serif;
+  margin-left: 540px;
+}
+
+.filter{
+  display: flex;
+}
+.filter h3{
+  font-size: 16px;
+}
